@@ -14,7 +14,7 @@ const dict= (word)=>{
         .then(response => response.json())
         .then((response) => 
             {
-               // console.log(response)
+                console.log(response)
                 wordheading.innerHTML = response.word;
                 definition.innerHTML = response.definition;
                 //console.log(word, response)
